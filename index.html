@@ -518,7 +518,7 @@
         <ul class="clean">
           <li>Count <strong>only Parent Segment profiles</strong> — </li>
           <li>Count <strong>only Parent Segment behaviors</strong>.</li>
-          <li>Count <strong>If possible only Segmented Profiles and Behaviour(may need language change)</strong>.</li>
+          <li>Count <strong>If possible only Segmented Profiles and Behaviour(Flow-through within CDP)</strong>.</li>
         </ul>
         <p class="horizon-why">if the DWH has 2B rows but the Parent segment is using 10M, bill 10M. No contract rework, change how we count internally. Removes the "paying for data I'm not using" objection.</p>
       </div>
@@ -527,7 +527,7 @@
         <div class="horizon-tag mid">Medium-term ·</div>
         <h3>Add zero-copy SKU</h3>
         <ul class="clean">
-          <li>Introduce an <strong>Activation SKU, and meter activated profiles</strong> (syncs, destinations) to match Hightouch / Census.</li>
+          <li>Introduce an <strong>Per Activation SKU </strong> Number of Active Activation Jobs (syncs, destinations) to match Hightouch / Census.</li>
         </ul>
         <p class="horizon-why">Every competitor prices activation. Real customer value.</p>
       </div>
@@ -536,10 +536,10 @@
         <div class="horizon-tag long">Long-term ·</div>
         <h3>Outcome pricing for AI(what AI thinks)</h3>
         <ul class="clean">
-          <li><strong>Per AI-generated audience</strong> — when AI copilot builds & ships a segment.</li>
-          <li><strong>Per journey optimization</strong> — when AI adjusts a journey live.</li>
-          <li><strong>Per personalization response</strong> — per real-time API call.</li>
-          <li><strong>Per profile activated</strong> — core activation meter.</li>
+          <li><strong>Per AI-generated audience segment</strong> — when user/AI builds & saves a segment.</li>
+          <li><strong>Per AI-journey</strong> — when user/AI builds, saves or adjusts a journey</li>
+          <li><strong>Per Per Activation SKU</strong> — Each segment 1 - Activation, Each Journey may use multiple(depending on setup).</li>
+          <li><strong>Per Million Trigger/Personalization Calls</strong> — per real-time API call.</li>
         </ul>
         <p class="horizon-why">Premium margin, immune to LLM cost deflation. Matches where the AI buyer market is heading.</p>
       </div>
