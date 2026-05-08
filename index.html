@@ -337,7 +337,7 @@
 <body>
 <header>
   <h1>Composable CDP Pricing vs. Treasure AI</h1>
-  <p>Interactive breakdown of how five composable CDPs meter their customers, how Treasure Data's P+B model differs, and where it lands on simplicity & effectiveness.</p>
+  <p>Interactive breakdown of how five composable CDPs meter their customers, how Treasure AI's P+B model differs, and where it lands on simplicity & effectiveness.</p>
 </header>
 
 <main>
@@ -351,7 +351,7 @@
 
   <!-- VENDORS -->
   <section class="panel active" data-panel="vendors">
-    <h2>Composable CDP vendors (2025)</h2>
+    <h2>Composable CDP vendors</h2>
     <p style="color:var(--muted); margin-top:-8px;">Click a card to expand.</p>
     <div class="vendor-grid">
       <div class="vendor-card" onclick="this.classList.toggle('open')">
@@ -380,7 +380,7 @@
         <div class="vendor-detail">"HybridCompute" zero-copy pushdown architecture — queries run in the customer's warehouse.</div>
       </div>
       <div class="vendor-card td" onclick="this.classList.toggle('open')">
-        <div class="vendor-name">Treasure Data (reference)</div>
+        <div class="vendor-name">Treasure AI (reference)</div>
         <div class="vendor-meter">Full-stack CDP with own data warehouse</div>
         <div class="vendor-detail">Ingests and stores profile + behavioral data in TD's own warehouse; charges for the resident footprint.</div>
       </div>
@@ -456,7 +456,7 @@
     </div>
 
     <div class="vendor-detail-block td-highlight">
-      <h3 style="color:var(--td-secondary-2);">Treasure Data — P+B Units</h3>
+      <h3 style="color:var(--td-secondary-2);">Treasure AI — P+B Units</h3>
       <p><strong>In simple terms:</strong> You pay based on two things TD stores in its warehouse: how many customer profiles you have, and how many behavioral events are attached to them. Both count.</p>
       <ul class="clean">
         <li><strong>1 P+B Unit</strong> equals either <strong>1 million profiles</strong> OR <strong>1 billion behavioral events</strong>. Whichever you consume, you pay for.</li>
@@ -471,7 +471,7 @@
 
   <!-- DIFF -->
   <section class="panel" data-panel="diff">
-    <h2>How Treasure Data differs</h2>
+    <h2>How Treasure AI differs</h2>
     <ul class="clean">
       <li><strong>Unique meter.</strong> Everyone else prices the <em>work</em> done (events, syncs, activations, destinations). TD prices the <em>resident inventory</em> — profiles <em>and</em> behavioral events.</li>
       <li><strong>Dual axis.</strong> A customer row and their associated behaviors are <em>both</em> counted. Competitors use a single dimension.</li>
@@ -490,7 +490,7 @@
       <div class="bar-row"><div class="bar-label">RudderStack</div><div class="bar-track"><div class="bar-fill" data-score="90"></div></div><div class="bar-score">90</div></div>
       <div class="bar-row"><div class="bar-label">Census</div><div class="bar-track"><div class="bar-fill" data-score="70"></div></div><div class="bar-score">70</div></div>
       <div class="bar-row"><div class="bar-label">Hightouch</div><div class="bar-track"><div class="bar-fill" data-score="65"></div></div><div class="bar-score">65</div></div>
-      <div class="bar-row"><div class="bar-label">Treasure Data</div><div class="bar-track"><div class="bar-fill" data-score="40"></div></div><div class="bar-score">40</div></div>
+      <div class="bar-row"><div class="bar-label">Treasure AI</div><div class="bar-track"><div class="bar-fill" data-score="40"></div></div><div class="bar-score">40</div></div>
       <div class="bar-row"><div class="bar-label">ActionIQ</div><div class="bar-track"><div class="bar-fill" data-score="20"></div></div><div class="bar-score">20</div></div>
     </div>
 
@@ -498,7 +498,7 @@
     <ul class="clean">
       <li><span class="chip simple">Strong</span> <strong>RudderStack, Hightouch</strong> — cost tied to activation work (events delivered, syncs run).</li>
       <li><span class="chip simple">Strong</span> <strong>GrowthLoop</strong> — tied to audience scale, a metric marketers natively understand.</li>
-      <li><span class="chip mid">Mixed</span> <strong>Treasure Data</strong> — economically defensible but decoupled from activation value. Rich event ingestion pays full freight even if unused.</li>
+      <li><span class="chip mid">Mixed</span> <strong>Treasure AI</strong> — economically defensible but decoupled from activation value. Rich event ingestion pays full freight even if unused.</li>
       <li><span class="chip complex">Opaque</span> <strong>ActionIQ</strong> — procurement-only; no public signal.</li>
     </ul>
   </section>
