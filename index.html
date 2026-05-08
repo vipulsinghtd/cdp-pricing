@@ -476,8 +476,6 @@
       <li><strong>Unique meter.</strong> Everyone else prices the <em>work</em> done (events, syncs, activations, destinations). TD prices the <em>resident inventory</em> — profiles <em>and</em> behavioral events.</li>
       <li><strong>Dual axis.</strong> A customer row and their associated behaviors are <em>both</em> counted. Competitors use a single dimension.</li>
       <li><strong>Data-resident, not data-activated.</strong> In composable models, history in Snowflake/BigQuery isn't penalized — only flow-through is. TD charges for the warehouse footprint itself.</li>
-      <li><strong>Two behaviors, one bill.</strong> More clickstream/app/purchase history grows the bill on TD, but not on Hightouch/Census unless activated.</li>
-      <li><strong>Blended unit.</strong> 1M-profiles-OR-1B-behaviors hides which axis is driving cost until the buyer models it.</li>
     </ul>
     <div class="callout">
       <strong>Bottom line:</strong> Composable CDPs meter <em>activation</em> (value created). TD meters <em>retention</em> (data stored + enriched).
